@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>wsOut</groupId>
-	<artifactId>wsOut</artifactId>
+	<groupId>webService</groupId>
+	<artifactId>webService</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>wsOut Maven Webapp</name>
+	<name>webService</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
@@ -62,7 +62,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>wsOut</finalName>
+		<finalName>webService</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
@@ -70,7 +70,7 @@
 				<configuration>
 					<url>http://127.0.0.1:8080/manager</url>
 					<server>tomcat</server>
-					<path>/wsOut</path>
+					<path>/webService</path>
 				</configuration>
 			</plugin>
 			<plugin>
